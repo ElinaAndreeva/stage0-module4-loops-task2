@@ -5,10 +5,13 @@ public class PowerOfTwo {
         if (power < 0) {
             System.out.println("too much power");
         } else {
-            int multi = 0;
-            while (multi <= power) {
-                System.out.println(2 ^ multi);
-                multi++;
+            int loop = 0;
+            long result = 1;
+            System.out.println(1);
+            while(loop < power) {
+                    result = 2 * result;
+                    loop++;
+                System.out.println(result);
             }
         }
     }
