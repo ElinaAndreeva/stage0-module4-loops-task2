@@ -5,12 +5,12 @@ public class Multiplication {
         int counter = 0;
         if (multiplyByAndToInclusive < 0) {
             while (counter >= multiplyByAndToInclusive) {
-                System.out.println(counter * multiplyByAndToInclusive);
+                System.out.println(counter * multiplyByAndToInclusive + '\n');
                 counter--;
             }
         } else {
             while (counter <= multiplyByAndToInclusive) {
-                System.out.println(counter * multiplyByAndToInclusive);
+                System.out.println(counter * multiplyByAndToInclusive + '\n');
                 counter++;
             }
         }
